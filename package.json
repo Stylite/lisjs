@@ -1,0 +1,18 @@
+{
+    "name": "lisjs",
+    "description": "A lightweight Discord api wrapper.",
+    "author": "Atiwiex",
+    "version": "0.0.1",
+    "main": "./index.js",
+    "license": "MIT",
+    "dependencies": {
+        "uws": "*"
+    },
+    "optionalDependencies": {
+        "mocha": "*",
+        "erlpack":"git://github.com/hammerandchisel/erlpack"
+    },
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha"
+    }
+}
