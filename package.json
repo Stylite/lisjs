@@ -2,7 +2,7 @@
     "name": "lisjs",
     "description": "A lightweight Discord api wrapper.",
     "author": "Atiwiex",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "main": "./index.js",
     "license": "MIT",
     "dependencies": {
