@@ -1,8 +1,8 @@
 const lisjs = require('lisjs');
-const client = new lisjs.Client('Bot tokengoeshere');
+const client = new lisjs.Client('Bot MjYxNjEwMzE1MTIzMjYxNDQx.DJo5Ew.AJ77J-jBkbrxqUA6ugP_XHWRs6Q');
 
 client.on('MESSAGE_CREATE', msg => {
   if (msg.content === 'a!Hello!')
-    client.kromaticIsntStraight(lisjs.Endpoints.createMessage(msg.channel_id, 
+    client.lisjs(lisjs.Endpoints.createMessage(msg.channel_id, 
       {data: { content: `Hello ${msg.author.username}`}}));
 });
